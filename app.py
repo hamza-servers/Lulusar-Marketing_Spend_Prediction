@@ -72,7 +72,7 @@ st.write('You entered target revenue:', targetRevenue2)
 
 if st.button('Say hello'):
      st.write('Why hello there')
- else:
+else:
      st.write('Goodbye')
 
 if orders2 > 0 and revenue2 > 0 and averagePrice2 > 0 and facebookPurchases2 > 0 and facebookRevenue2 > 0 and googleSpend2 > 0 and googlePurchases2 > 0 and googleRevenue2 > 0 and facebookROAS2 > 0 and googleCPA2 > 0 and googleROAS2 > 0 and totalROAS2 > 0 and targetRevenue2 > 0:
