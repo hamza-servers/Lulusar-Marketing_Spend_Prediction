@@ -7,6 +7,8 @@ import pickle
 # }
 # st.set_option('deprecation.showfileUploaderEncoding', False)
 
+st.code("a = 1234")
+
 st.title("MARKETING SPEND PREDICTION MODEL")
 # st.subheader('Weekly')
 st.write("")
