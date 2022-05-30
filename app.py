@@ -242,6 +242,7 @@ if st.button('Predict'):
     st.write('Facebook Marketing Spend Budget :', totalFB_Revenue6)
     st.write('Google Marketing Spend Budget :', totalGA_Revenue6)
 
+       st.balloons()
 else:
      st.write('If all fields are filled then press predict')
 # ['orders', 'revenue', 'average_price', 'fb_purchases', 'fb_revenue', 'ga_spend',
