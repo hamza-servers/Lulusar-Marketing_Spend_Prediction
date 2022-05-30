@@ -102,8 +102,8 @@ if orders2 > 0 and revenue2 > 0 and averagePrice2 > 0 and facebookPurchases2 > 0
     st.markdown(
         f'<h1 style="color:##0373fc;font-size:24px;">{"Feature Set 1"}</h1>', unsafe_allow_html=True)
     st.markdown(
-        f'<p style="color:##03fca9;">{"orders, revenue, average_price, fb_purchases, fb_revenue, ga_spend, ga_purchases, ga_revenue, fb_roas, ga_cpa, ga_roas, roas, target_revenue”"}</p>', unsafe_allow_html=True)
-    st.write('{orders, revenue, average_price, fb_purchases, fb_revenue, ga_spend, ga_purchases, ga_revenue, fb_roas, ga_cpa, ga_roas, roas, target_revenue}')
+        f'<p style="color:##03fca9;">{"orders, revenue, average_price, fb_purchases, fb_revenue, ga_spend, ga_purchases, ga_revenue, fb_roas, ga_cpa, ga_roas, roas, target_revenue"}</p>', unsafe_allow_html=True)
+    # st.write('{orders, revenue, average_price, fb_purchases, fb_revenue, ga_spend, ga_purchases, ga_revenue, fb_roas, ga_cpa, ga_roas, roas, target_revenue}')
     st.write('Facebook Marketing Spend Budget :', totalFB_Revenue2)
     st.write('Google Marketing Spend Budget :', totalGA_Revenue2)
 
@@ -131,6 +131,10 @@ if orders2 > 0 and revenue2 > 0 and averagePrice2 > 0 and facebookPurchases2 > 0
     totalFB_Revenue3 = float(pred3[0])
     totalGA_Revenue3 = float(totalFB_Revenue3*0.1)
 
+    st.markdown(
+        f'<h1 style="color:##0373fc;font-size:24px;">{"Feature Set 2"}</h1>', unsafe_allow_html=True)
+    st.markdown(
+        f'<p style="color:##03fca9;">{"orders, revenue, average_price, fb_purchases, fb_revenue, ga_spend, ga_purchases, ga_revenue, fb_roas, ga_cpa, ga_roas, roas"}</p>', unsafe_allow_html=True)
     st.write('Selected Feature --> ')
     st.write('Facebook Marketing Spend Budget :', totalFB_Revenue3)
     st.write('Google Marketing Spend Budget :', totalGA_Revenue3)
@@ -159,6 +163,10 @@ if orders2 > 0 and revenue2 > 0 and averagePrice2 > 0 and facebookPurchases2 > 0
     totalFB_Revenue4 = float(pred4[0])
     totalGA_Revenue4 = float(totalFB_Revenue4*0.1)
 
+    st.markdown(
+        f'<h1 style="color:##0373fc;font-size:24px;">{"Feature Set 3"}</h1>', unsafe_allow_html=True)
+    st.markdown(
+        f'<p style="color:##03fca9;">{"orders, revenue, average_price, fb_purchases, fb_revenue, ga_spend, ga_purchases, ga_revenue, fb_roas, ga_roas, roas"}</p>', unsafe_allow_html=True)
     st.write('Facebook Marketing Spend Budget :', totalFB_Revenue4)
     st.write('Google Marketing Spend Budget :', totalGA_Revenue4)
 
@@ -186,6 +194,10 @@ if orders2 > 0 and revenue2 > 0 and averagePrice2 > 0 and facebookPurchases2 > 0
     totalFB_Revenue5 = float(pred5[0])
     totalGA_Revenue5 = float(totalFB_Revenue5*0.1)
 
+    st.markdown(
+        f'<h1 style="color:##0373fc;font-size:24px;">{"Feature Set 4"}</h1>', unsafe_allow_html=True)
+    st.markdown(
+        f'<p style="color:##03fca9;">{"revenue, average_price, fb_purchases, fb_revenue, ga_spend, ga_purchases, ga_revenue, fb_roas, ga_roas, roas"}</p>', unsafe_allow_html=True)
     st.write('Facebook Marketing Spend Budget :', totalFB_Revenue5)
     st.write('Google Marketing Spend Budget :', totalGA_Revenue5)
 
@@ -213,11 +225,15 @@ if orders2 > 0 and revenue2 > 0 and averagePrice2 > 0 and facebookPurchases2 > 0
     totalFB_Revenue6 = float(pred6[0])
     totalGA_Revenue6 = float(totalFB_Revenue6*0.1)
 
+    st.markdown(
+        f'<h1 style="color:##0373fc;font-size:24px;">{"Feature Set 5"}</h1>', unsafe_allow_html=True)
+    st.markdown(
+        f'<p style="color:##03fca9;">{"revenue, average_price, fb_purchases, fb_revenue, ga_spend, ga_purchases, fb_roas, ga_roas, roas"}</p>', unsafe_allow_html=True)
     st.write('Facebook Marketing Spend Budget :', totalFB_Revenue6)
     st.write('Google Marketing Spend Budget :', totalGA_Revenue6)
 
 
-['orders', 'revenue', 'average_price', 'fb_purchases', 'fb_revenue', 'ga_spend',
-    'ga_purchases', 'ga_revenue', 'fb_roas', 'ga_cpa', 'ga_roas', 'roas', 'target_revenue']
-['orders', 'revenue', 'average_price', 'fb_purchases', 'fb_revenue', 'ga_spend',
-    'ga_purchases', 'ga_revenue', 'fb_roas', 'ga_roas', 'ga_cpa', 'roas', 'target_revenue']
+# ['orders', 'revenue', 'average_price', 'fb_purchases', 'fb_revenue', 'ga_spend',
+#     'ga_purchases', 'ga_revenue', 'fb_roas', 'ga_cpa', 'ga_roas', 'roas', 'target_revenue']
+# ['orders', 'revenue', 'average_price', 'fb_purchases', 'fb_revenue', 'ga_spend',
+#     'ga_purchases', 'ga_revenue', 'fb_roas', 'ga_roas', 'ga_cpa', 'roas', 'target_revenue']
