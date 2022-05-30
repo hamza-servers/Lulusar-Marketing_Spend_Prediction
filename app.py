@@ -99,8 +99,8 @@ if orders2 > 0 and revenue2 > 0 and averagePrice2 > 0 and facebookPurchases2 > 0
     totalFB_Revenue2 = float(pred2[0])
     totalGA_Revenue2 = float(totalFB_Revenue2*0.1)
 
-    st.wriets('Selected Features For Bellow Prediction are')
-    st.write(' {orders, revenue, average_price, fb_purchases, fb_revenue, ga_spend, ga_purchases, ga_revenue, fb_roas, ga_cpa, ga_roas, roas, target_revenue} ')
+    st.write('Selected Features For Bellow Prediction are')
+    st.write('{orders, revenue, average_price, fb_purchases, fb_revenue, ga_spend, ga_purchases, ga_revenue, fb_roas, ga_cpa, ga_roas, roas, target_revenue}')
     st.write('Facebook Marketing Spend Budget :', totalFB_Revenue2)
     st.write('Google Marketing Spend Budget :', totalGA_Revenue2)
 
