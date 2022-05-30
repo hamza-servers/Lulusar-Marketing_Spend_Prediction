@@ -7,8 +7,6 @@ import pickle
 # }
 # st.set_option('deprecation.showfileUploaderEncoding', False)
 
-st.markdown(f'<h1 style="color:#33ff33;font-size:24px;">{"ColorMeBlue text”"}</h1>', unsafe_allow_html=True)
-
 st.title("MARKETING SPEND PREDICTION MODEL")
 # st.subheader('Weekly')
 st.write("")
@@ -101,7 +99,8 @@ if orders2 > 0 and revenue2 > 0 and averagePrice2 > 0 and facebookPurchases2 > 0
     totalFB_Revenue2 = float(pred2[0])
     totalGA_Revenue2 = float(totalFB_Revenue2*0.1)
 
-    st.write('Selected Features For Bellow Prediction are')
+    st.markdown(f'<h1 style="color:##0373fc;font-size:24px;">{"Feature Set 1”"}</h1>', unsafe_allow_html=True)
+    st.markdown(f'<h1 style="color:###03fca9;font-size:24px;">{"orders, revenue, average_price, fb_purchases, fb_revenue, ga_spend, ga_purchases, ga_revenue, fb_roas, ga_cpa, ga_roas, roas, target_revenue”"}</h1>', unsafe_allow_html=True)
     st.write('{orders, revenue, average_price, fb_purchases, fb_revenue, ga_spend, ga_purchases, ga_revenue, fb_roas, ga_cpa, ga_roas, roas, target_revenue}')
     st.write('Facebook Marketing Spend Budget :', totalFB_Revenue2)
     st.write('Google Marketing Spend Budget :', totalGA_Revenue2)
