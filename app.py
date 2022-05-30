@@ -211,7 +211,7 @@ if orders2 > 0 and revenue2 > 0 and averagePrice2 > 0 and facebookPurchases2 > 0
     st.write('Google Marketing Spend Budget :', totalGA_Revenue6)
 
 
-['orders', 'revenue', 'average_price', 'fb_purchases', 'fb_revenue', 'ga_spend',
-    'ga_purchases', 'ga_revenue', 'fb_roas', 'ga_cpa', 'ga_roas', 'roas', 'target_revenue']
-['orders', 'revenue', 'average_price', 'fb_purchases', 'fb_revenue', 'ga_spend',
-    'ga_purchases', 'ga_revenue', 'fb_roas', 'ga_roas', 'ga_cpa', 'roas', 'target_revenue']
+# ['orders', 'revenue', 'average_price', 'fb_purchases', 'fb_revenue', 'ga_spend',
+#     'ga_purchases', 'ga_revenue', 'fb_roas', 'ga_cpa', 'ga_roas', 'roas', 'target_revenue']
+# ['orders', 'revenue', 'average_price', 'fb_purchases', 'fb_revenue', 'ga_spend',
+#     'ga_purchases', 'ga_revenue', 'fb_roas', 'ga_roas', 'ga_cpa', 'roas', 'target_revenue']
