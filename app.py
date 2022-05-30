@@ -70,6 +70,14 @@ st.write('You entered target revenue:', targetRevenue2)
 # Week_Number = #int(datetime.date(year,month , 1).strftime("%V"))
 # M_ActualRevenue = targetRevenue  # (targetRevenue/30)*7
 
+with st.container():
+    st.write("This is inside the container")
+
+    # You can call any Streamlit command, including custom components:
+    st.bar_chart(np.random.randn(50, 3))
+
+st.write("This is outside the container")
+
 if st.button('Predict'):
 #      st.write('Why hello there')
 
