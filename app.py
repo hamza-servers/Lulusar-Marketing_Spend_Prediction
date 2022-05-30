@@ -7,8 +7,6 @@ import pickle
 # }
 # st.set_option('deprecation.showfileUploaderEncoding', False)
 
-st.code("a = 1234")
-
 st.title("MARKETING SPEND PREDICTION MODEL")
 # st.subheader('Weekly')
 st.write("")
@@ -72,14 +70,6 @@ st.write('You entered target revenue:', targetRevenue2)
 # Week_Number = #int(datetime.date(year,month , 1).strftime("%V"))
 # M_ActualRevenue = targetRevenue  # (targetRevenue/30)*7
 
-with st.container():
-    st.write("This is inside the container")
-
-    # You can call any Streamlit command, including custom components:
-#     st.bar_chart(np.random.randn(50, 3))
-
-st.write("This is outside the container")
-
 if st.button('Predict'):
 #      st.write('Why hello there')
 
@@ -117,7 +107,9 @@ if st.button('Predict'):
         f'<p style="color:##03fca9;">{"orders, revenue, average_price, fb_purchases, fb_revenue, ga_spend, ga_purchases, ga_revenue, fb_roas, ga_cpa, ga_roas, roas, target_revenue"}</p>', unsafe_allow_html=True)
     # st.write('{orders, revenue, average_price, fb_purchases, fb_revenue, ga_spend, ga_purchases, ga_revenue, fb_roas, ga_cpa, ga_roas, roas, target_revenue}')
     st.write('Facebook Marketing Spend Budget :', totalFB_Revenue2)
+    st.code('Facebook Marketing Spend Budget :', totalFB_Revenue2)
     st.write('Google Marketing Spend Budget :', totalGA_Revenue2)
+    st.code('Google Marketing Spend Budget :', totalGA_Revenue2)
 
     test3 = {'orders': orders2, 'revenue': revenue2,
              'average_price': averagePrice2, 'fb_purchases': facebookPurchases2, 'fb_revenue': facebookRevenue2,
@@ -148,8 +140,10 @@ if st.button('Predict'):
     st.markdown(
         f'<p style="color:##03fca9;">{"orders, revenue, average_price, fb_purchases, fb_revenue, ga_spend, ga_purchases, ga_revenue, fb_roas, ga_cpa, ga_roas, roas"}</p>', unsafe_allow_html=True)
     st.write('Selected Feature --> ')
-    st.write('Facebook Marketing Spend Budget :', totalFB_Revenue3)
-    st.write('Google Marketing Spend Budget :', totalGA_Revenue3)
+    # st.write('Facebook Marketing Spend Budget :', totalFB_Revenue3)
+    st.code('Facebook Marketing Spend Budget :', totalFB_Revenue3)
+    # st.write('Google Marketing Spend Budget :', totalGA_Revenue3)
+    st.code('Google Marketing Spend Budget :', totalGA_Revenue3)
 
     test4 = {'orders': orders2, 'revenue': revenue2,
              'average_price': averagePrice2, 'fb_purchases': facebookPurchases2, 'fb_revenue': facebookRevenue2,
@@ -179,8 +173,10 @@ if st.button('Predict'):
         f'<h1 style="color:##0373fc;font-size:24px;">{"Feature Set 3"}</h1>', unsafe_allow_html=True)
     st.markdown(
         f'<p style="color:##03fca9;">{"orders, revenue, average_price, fb_purchases, fb_revenue, ga_spend, ga_purchases, ga_revenue, fb_roas, ga_roas, roas"}</p>', unsafe_allow_html=True)
-    st.write('Facebook Marketing Spend Budget :', totalFB_Revenue4)
-    st.write('Google Marketing Spend Budget :', totalGA_Revenue4)
+    # st.write('Facebook Marketing Spend Budget :', totalFB_Revenue4)
+    st.code('Facebook Marketing Spend Budget :', totalFB_Revenue4)
+    # st.write('Google Marketing Spend Budget :', totalGA_Revenue4)
+    st.code('Google Marketing Spend Budget :', totalGA_Revenue4)
 
     test5 = {'revenue': revenue2,
              'average_price': averagePrice2, 'fb_purchases': facebookPurchases2, 'fb_revenue': facebookRevenue2,
@@ -210,8 +206,10 @@ if st.button('Predict'):
         f'<h1 style="color:##0373fc;font-size:24px;">{"Feature Set 4"}</h1>', unsafe_allow_html=True)
     st.markdown(
         f'<p style="color:##03fca9;">{"revenue, average_price, fb_purchases, fb_revenue, ga_spend, ga_purchases, ga_revenue, fb_roas, ga_roas, roas"}</p>', unsafe_allow_html=True)
-    st.write('Facebook Marketing Spend Budget :', totalFB_Revenue5)
-    st.write('Google Marketing Spend Budget :', totalGA_Revenue5)
+    # st.write('Facebook Marketing Spend Budget :', totalFB_Revenue5)
+    st.code('Facebook Marketing Spend Budget :', totalFB_Revenue5)
+    # st.write('Google Marketing Spend Budget :', totalGA_Revenue5)
+    st.code('Google Marketing Spend Budget :', totalGA_Revenue5)
 
     test6 = {'revenue': revenue2,
              'average_price': averagePrice2, 'fb_purchases': facebookPurchases2, 'fb_revenue': facebookRevenue2,
@@ -241,10 +239,11 @@ if st.button('Predict'):
         f'<h1 style="color:##0373fc;font-size:24px;">{"Feature Set 5"}</h1>', unsafe_allow_html=True)
     st.markdown(
         f'<p style="color:##03fca9;">{"revenue, average_price, fb_purchases, fb_revenue, ga_spend, ga_purchases, fb_roas, ga_roas, roas"}</p>', unsafe_allow_html=True)
-    st.write('Facebook Marketing Spend Budget :', totalFB_Revenue6)
-    st.write('Google Marketing Spend Budget :', totalGA_Revenue6)
+    # st.write('Facebook Marketing Spend Budget :', totalFB_Revenue6)
+    st.code('Facebook Marketing Spend Budget :', totalFB_Revenue6)
+    # st.write('Google Marketing Spend Budget :', totalGA_Revenue6)
+    st.code('Google Marketing Spend Budget :', totalGA_Revenue6)
 
-    st.balloons()
 else:
      st.write('If all fields are filled then press predict')
 # ['orders', 'revenue', 'average_price', 'fb_purchases', 'fb_revenue', 'ga_spend',
