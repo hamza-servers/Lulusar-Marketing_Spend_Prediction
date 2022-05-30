@@ -106,9 +106,10 @@ if st.button('Predict'):
     st.markdown(
         f'<p style="color:##03fca9;">{"orders, revenue, average_price, fb_purchases, fb_revenue, ga_spend, ga_purchases, ga_revenue, fb_roas, ga_cpa, ga_roas, roas, target_revenue"}</p>', unsafe_allow_html=True)
     # st.write('{orders, revenue, average_price, fb_purchases, fb_revenue, ga_spend, ga_purchases, ga_revenue, fb_roas, ga_cpa, ga_roas, roas, target_revenue}')
-    st.write('Facebook Marketing Spend Budget :', totalFB_Revenue2)
-    st.code('Facebook Marketing Spend Budget :', totalFB_Revenue2)
-    st.write('Google Marketing Spend Budget :', totalGA_Revenue2)
+    # st.write('Facebook Marketing Spend Budget :', totalFB_Revenue2)
+    st.code('Facebook Marketing Spend Budget :')
+    st.write(totalFB_Revenue2)
+    # st.write('Google Marketing Spend Budget :', totalGA_Revenue2)
     st.code('Google Marketing Spend Budget :', totalGA_Revenue2)
 
     test3 = {'orders': orders2, 'revenue': revenue2,
