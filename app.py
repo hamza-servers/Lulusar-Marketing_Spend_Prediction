@@ -7,6 +7,8 @@ import pickle
 # }
 # st.set_option('deprecation.showfileUploaderEncoding', False)
 
+st.markdown(f'<h1 style="color:#33ff33;font-size:24px;">{"ColorMeBlue text”"}</h1>', unsafe_allow_html=True)
+
 st.title("MARKETING SPEND PREDICTION MODEL")
 # st.subheader('Weekly')
 st.write("")
