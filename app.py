@@ -235,7 +235,7 @@ if st.button('Predict'):
     st.write('Google Marketing Spend Budget :', totalGA_Revenue6)
 
 else:
-     st.write('If all fields are then filled press predict')
+     st.write('If all fields are filled then press predict')
 # ['orders', 'revenue', 'average_price', 'fb_purchases', 'fb_revenue', 'ga_spend',
 #     'ga_purchases', 'ga_revenue', 'fb_roas', 'ga_cpa', 'ga_roas', 'roas', 'target_revenue']
 # ['orders', 'revenue', 'average_price', 'fb_purchases', 'fb_revenue', 'ga_spend',
